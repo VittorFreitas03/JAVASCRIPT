@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        body{
+            background-color: blue;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos</h1>
+    <p>aqui vai o resultado</p>
+    <p>vai <strong>corinthians</strong></p>
+
+    <div id="teste">clique aqui em min</div>
+    
+    <script>
+         /*
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write('esta escrito assim: '+ p1.innerHTML)
+
+        var d = window.document.getElementById('teste')
+       
+        d.innerText ='fica cassio'
+        d.style.color ='black'
+        corpo.style.backgroundColor = 'black'
+        */
+
+
+        var teste = window.document.querySelector('#teste')
+
+        teste.style.backgroundColor = 'black'
+        teste.innerHTML ='testando'
+
+        var ex = window.document.getElementsByTagName('p')[0]
+
+        window.document.write(ex.innerText)
+    </script>
+</body>
+</html>
